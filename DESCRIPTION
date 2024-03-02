@@ -1,0 +1,41 @@
+Package: stpdpm
+Type: Package
+Title: Skew-T Process Dirichlet Process Mixture
+Version: 0.1.0
+Author: Gregory Bopp
+Maintainer: Gregory Bopp <yourself@somewhere.net>
+Description: Simulate and fit Skew-T Process Dirichlet Process Mixture using analogues.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Requires: 
+	RandomFields (>= 3.1.50),
+	abind (>= 1.4.5),
+	dplyr (>= 0.7.5),
+	tidyr (>= 0.6.3),
+	mvtnorm,
+	ggplot2,
+	cowplot,
+	fields,
+	tmvtnorm,
+	Rcpp,
+	RcppArmadillo,
+	pracma
+Imports: Rcpp (>= 0.12.18),
+		 RcppArmadillo,
+	     foreach,
+		 doMC,
+		 parallel,
+		 ggplot2
+Depends: Rcpp,
+		 RcppArmadillo, 
+		foreach,
+		 doMC,
+	     parallel,
+	     ggplot2
+Suggests: ggplot2
+LinkingTo: Rcpp,
+		   RcppArmadillo,
+		   RcppGSL
+		   
+RoxygenNote: 6.1.0
